@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/* Text styles */
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf)
+  }
+
+  @font-face {
+    font-family: Roboto-Black;
+    src: url(fonts/Roboto-Black.ttf)
+  }
+
+  @font-face {
+    font-family: Roboto-LightItalic;
+    src: url(fonts/Roboto-LightItalic.ttf)
+  }
+
+/* Common styles */
+
+.clickable {
+    cursor: pointer;
+}
+
+/* Main styles */
+
+.mega_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 535px;
+    align-items: center;
+}
+
+.nav_container {
+    display: flex;
+    height: 50px;
+    width: 1024px;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav_logo {
+    font-family: Roboto-Black;
+    font-size: 24px;
+    flex-grow: 1;
+    color: #f9faf8;
+}
+
+.nav_link {
+    color: #e5e7eb;
+}
+
+.hero_container {
+    width: 1024px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_leftcontent_container {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    gap: 15px;
+}
+
+.hero_leftcontent_title {
+    font-family: 'Roboto-Black';
+    font-size: 48px;
+    color: #f9faf8;
+}
+.hero_leftcontent_text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero_leftcontent_button {
+    display: flex;
+    background-color: #3882f6;
+    color: #fff;
+    width: 130px;
+    height: 35px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto-Bold';
+    border-radius: 8px;
+}
+
+.hero_image {
+    width: 500px;
+    height: 250px;
+}
+
+.randominfo_container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.randominfo_title {
+    color: #1f2937;
+    font-size: 38px;
+    font-family: 'Roboto-Black';
+}
+
+.randominfo_box_container {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.randominfo_box {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.randominfo_box_image {
+    height: 220px;
+    width: 220px;
+}
+.randominfo_box_text {
+    text-align: center;
+    color: #454c53
+}
+
+.quote_container {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote_content_container {
+    display: flex;
+    flex-direction: column;
+    height: 535px;
+    align-items: center;
+    justify-content: center;
+    width: 1024px;
+}
+
+.quote_text {
+    font-family: 'Roboto-LightItalic';
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote_author {
+    font-family: 'Roboto-Bold';
+    font-size: 20px;
+    color: #1f2937;
+    align-self: flex-end
+}
+
+.action_container {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.action_content_container {
+    display: flex;
+    background-color: #3882f6;
+    height: 150px;
+    width: 1024px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.action_leftcontent_container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.action_title {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Roboto-Bold';
+}
+
+.action_text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.action_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 35px;
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+    color: #fff;
+    font-size: 17px;
+}
